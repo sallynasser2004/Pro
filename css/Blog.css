@@ -1,0 +1,127 @@
+/* Sally Nasser Sobeh */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Small Screen*/
+@media(max-width:767px)
+{
+
+}
+/*Medium Screen*/
+@media(min-width:768px){
+.container{
+    max-width: 768px;
+}
+
+}
+/*Larg Screen*/
+@media(min-width:992px){
+    .container{
+        min-width:992px;
+    }
+}
+/*Extra Larg Screen*/
+@media(min-width:1200px){
+    .container{
+        min-width:1200px;
+    }
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:25px 4%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 16px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #242A45;
+    text-transform: capitalize;
+    align-items: right;
+    display: inline-block;
+    font-weight: bold;
+}
+a span{
+    color: #FF6464;
+}
+
+.container{
+    padding: 80px 10%;
+}
+.container h1{
+    margin: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-left:20px ;
+ 
+}
+p{
+    font-size: 20px;
+}
+.Blog-row {
+  display: inline-block;
+  padding: 40px;
+  
+}
+.Blog-col{
+    flex-basis: 31%;
+    background-color: white;
+    padding:15px;
+    font-size: 11px;
+    align-items: flex-start;
+    /* border-radius: 7px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2); */
+}
+ .Blog-col h1{
+    color: #21243D;
+    padding: 8px;
+    line-height: 1.5;
+ }
+ .Blog-col h2{
+    font-size: 20px;
+    font-weight: bold;
+ }
+.Blog-col p{
+    color: #21243D;
+    padding: 8px;
+    line-height: 1.5;
+}
+.Blog-col p span{
+    padding: 8px;
+    color: #8695A4;
+}
+.foot-row{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.foot-col{
+    margin: 10px;
+    padding:25px;
+    /* flex-basis: 31%;  */
+}
+.foot-col img{
+    padding: 11px;
+}
+.foot{
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+  
+
+

@@ -1,0 +1,111 @@
+/* Sally Nasser Sobeh */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Small Screen*/
+@media(max-width:767px)
+{
+
+}
+/*Medium Screen*/
+@media(min-width:768px){
+.container{
+    max-width: 768px;
+}
+
+}
+/*Larg Screen*/
+@media(min-width:992px){
+    .container{
+        min-width:992px;
+    }
+}
+/*Extra Larg Screen*/
+@media(min-width:1200px){
+    .container{
+        min-width:1200px;
+    }
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:25px 4%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 16px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #242A45;
+    text-transform: capitalize;
+    align-items: right;
+    display: inline-block;
+    font-weight: bold;
+}
+a span{
+    color: #FF6464;
+}
+.container{
+    padding: 80px 10%;
+}
+.container h5{
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.work-row{
+    display: block;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+.heads{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.head{
+ font-weight: bold;
+ font-size: 15px;
+}
+.works .year{
+    padding: 4px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 4px;
+    color: #FFFFFF;
+    background-color:#FF7C7C;
+    border-radius: 20px;
+}
+.par{
+    padding-bottom: 35px;
+}
+.para{
+    padding-bottom: 25px;
+}
+.foot-row{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.foot-col{
+    margin: 10px;
+    padding:25px;
+    /* flex-basis: 31%;  */
+}
+.foot-col img{
+    padding: 11px;
+}
+.foot{
+    padding: 10px;
+    font-size: 16px;
+}
